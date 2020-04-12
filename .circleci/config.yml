@@ -70,10 +70,6 @@ workflows:
   build_and_deploy:
     jobs:
       - test:
-          filters:
-            branches:
-              ignore:
-                - master
       - build:
           requires:
             - test
