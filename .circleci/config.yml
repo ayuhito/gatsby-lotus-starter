@@ -6,8 +6,9 @@ executors:
 aliases:
   restore_cache: &restore_cache
     restore_cache:
-      name: Restore Npm Package Cache
+      name: Restore Caches
       keys:
+        - v1-always-
         - yarn-cache-netlify-{{ checksum "yarn.lock" }}
 
   install_node_modules: &install_node_modules
@@ -21,6 +22,13 @@ aliases:
       key: yarn-cache-netlify-{{ checksum "yarn.lock" }}
       paths:
         - ./node_modules
+
+    save_cache:
+      name: Save Gatsby file cache
+      key: v1-always-{{ epoch }}
+      paths:
+        - ./public
+        - ./.cache
 
 version: 2.1
 
