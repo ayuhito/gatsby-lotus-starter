@@ -16,14 +16,14 @@ aliases:
       name: Install dependencies
       command: yarn
 
-  save_cache: &save_cache_yarn
+  save_cache_yarn: &save_cache_yarn
     save_cache:
       name: Save NPM package cache
       key: yarn-cache-netlify-{{ checksum "yarn.lock" }}
       paths:
         - ./node_modules
 
-  save_cache: &save_cache_gatsby
+  save_cache_gatsby: &save_cache_gatsby
     save_cache:
       name: Save Gatsby file cache
       key: v1-always-{{ epoch }}
