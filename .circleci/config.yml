@@ -6,7 +6,7 @@ executors:
 aliases:
   restore_cache_yarn: &restore_cache_yarn
     restore_cache:
-      name: Restore Yarn Caches
+      name: Restore Yarn Package Cache
       keys:
         - yarn-cache-{{ checksum "yarn.lock" }}
         - yarn-cache-
@@ -17,6 +17,13 @@ aliases:
       keys:
         - v1-always-
 
+  restore_cache_netlify: &restore_cache_netlify
+    restore_cache:
+      name: Restore Netlify Package Cache
+      keys:
+        - netlify-cache-{{ checksum "yarn.lock" }}
+        - netlify-cache-
+
   install_node_modules: &install_node_modules
     run:
       name: Install dependencies
@@ -24,18 +31,25 @@ aliases:
 
   save_cache_yarn: &save_cache_yarn
     save_cache:
-      name: Save NPM package cache
+      name: Save NPM Package Cache
       key: yarn-cache-{{ checksum "yarn.lock" }}
       paths:
         - ./node_modules
 
   save_cache_gatsby: &save_cache_gatsby
     save_cache:
-      name: Save Gatsby file cache
+      name: Save Gatsby File Cache
       key: v1-always-{{ epoch }}
       paths:
         - ./public
         - ./.cache
+
+  save_cache_netlify: &save_cache_netlify
+    save_cache:
+      name: Save Netlify CLI Cache
+      key: netlify-cache-{{checksum "yarn.lock"}}
+      paths:
+        - ./node_modules
 
 version: 2.1
 
@@ -74,14 +88,15 @@ jobs:
       - checkout
       - attach_workspace:
           at: ./
-      - <<: *restore_cache_yarn
+      - <<: *restore_cache_netlify
       - <<: *install_node_modules
       - run:
           name: Install netlify-cli
-          command: sudo npm install -g --silent netlify-cli
+          command: yarn install netlify-cli
+      - <<: *save_cache_netlify
       - run:
           name: Deploy to Netlify
-          command: netlify deploy --dir=./public -p
+          command: npx netlify deploy --dir=./public -p
 
 workflows:
   version: 2
