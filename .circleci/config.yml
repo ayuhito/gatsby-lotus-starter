@@ -6,7 +6,7 @@ executors:
 aliases:
   restore_cache_yarn: &restore_cache_yarn
     restore_cache:
-      name: Restore Yarn Package Cache
+      name: Restore Yarn Caches
       keys:
         - yarn-cache-{{ checksum "yarn.lock" }}
         - yarn-cache-
@@ -24,14 +24,14 @@ aliases:
 
   save_cache_yarn: &save_cache_yarn
     save_cache:
-      name: Save NPM Package Cache
+      name: Save NPM package cache
       key: yarn-cache-{{ checksum "yarn.lock" }}
       paths:
         - ./node_modules
 
   save_cache_gatsby: &save_cache_gatsby
     save_cache:
-      name: Save Gatsby File Cache
+      name: Save Gatsby file cache
       key: v1-always-{{ epoch }}
       paths:
         - ./public
@@ -77,8 +77,11 @@ jobs:
       - <<: *restore_cache_yarn
       - <<: *install_node_modules
       - run:
+          name: Install netlify-cli
+          command: sudo npm install -g --silent netlify-cli
+      - run:
           name: Deploy to Netlify
-          command: npx netlify deploy --dir=./public -p
+          command: netlify deploy --dir=./public -p
 
 workflows:
   version: 2
