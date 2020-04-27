@@ -20,7 +20,7 @@
     "gatsby-plugin-robots-txt": "^1.5.0",
     "gatsby-plugin-sass": "^2.2.3",
     "gatsby-plugin-sharp": "^2.5.7",
-    "gatsby-plugin-sitemap": "^2.3.5",
+    "gatsby-plugin-sitemap": "^2.3.6",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-plugin-webpack-size": "^1.0.0",
     "gatsby-source-filesystem": "^2.2.4",
