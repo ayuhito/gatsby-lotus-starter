@@ -23,7 +23,7 @@
     "gatsby-plugin-sitemap": "^2.3.6",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-plugin-webpack-size": "^1.0.0",
-    "gatsby-source-filesystem": "^2.2.4",
+    "gatsby-source-filesystem": "^2.2.5",
     "gatsby-transformer-sharp": "^2.4.7",
     "node-sass": "^4.12.0",
     "prop-types": "^15.7.2",
