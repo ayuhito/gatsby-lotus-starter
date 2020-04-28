@@ -24,7 +24,7 @@
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-plugin-webpack-size": "^1.0.0",
     "gatsby-source-filesystem": "^2.3.0",
-    "gatsby-transformer-sharp": "^2.4.7",
+    "gatsby-transformer-sharp": "^2.5.0",
     "node-sass": "^4.14.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
