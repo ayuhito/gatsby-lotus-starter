@@ -6480,12 +6480,12 @@ gatsby-plugin-netlify@^2.3.0:
     lodash "^4.17.15"
     webpack-assets-manifest "^3.1.1"
 
-gatsby-plugin-nprogress@^2.2.4:
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-nprogress/-/gatsby-plugin-nprogress-2.2.4.tgz#5eaa6ca91c6346c098d9fd70b2ba7e7e66476b2a"
-  integrity sha512-HhcwrpzFoJgywngmraMwvyDxHhIBaa2f+kaMvLA6k2eLpGNatZxr4cAFhr0Vdw7Z3yV9eJNhQeMy1F94mtCWWQ==
+gatsby-plugin-nprogress@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-nprogress/-/gatsby-plugin-nprogress-2.3.0.tgz#b3b0183d9370cc388b0f582fef39644ad813a4ea"
+  integrity sha512-E4kVr7X0HjhjSRrfwhFGTHYwe2G2MLVKfoPN1ALzm8fVxcQysZ7bGrZKy/swosEkY2b1miegIeHROpgCRK+36Q==
   dependencies:
-    "@babel/runtime" "^7.8.7"
+    "@babel/runtime" "^7.9.2"
     nprogress "^0.2.0"
 
 gatsby-plugin-offline@^3.2.0:
@@ -15151,11 +15151,6 @@ xregexp@^4.3.0:
     "@babel/runtime-corejs3" "^7.8.3"
 
 xstate@^4.8.0, xstate@^4.9.1:
-  version "4.9.1"
-  resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.9.1.tgz#da883ae0993b129ba0b54592c59b069963b0fe0a"
-  integrity sha512-cfNnRaBebnr1tvs0nHBUTyomfJx36+8MWwXceyNTZfjyELMM8nIoiBDcUzfKmpNlnAvs2ZPREos19cw6Zl4nng==
-
-xstate@^4.9.1:
   version "4.9.1"
   resolved "https://registry.yarnpkg.com/xstate/-/xstate-4.9.1.tgz#da883ae0993b129ba0b54592c59b069963b0fe0a"
   integrity sha512-cfNnRaBebnr1tvs0nHBUTyomfJx36+8MWwXceyNTZfjyELMM8nIoiBDcUzfKmpNlnAvs2ZPREos19cw6Zl4nng==
