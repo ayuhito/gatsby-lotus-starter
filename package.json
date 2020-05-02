@@ -1,7 +1,7 @@
 {
   "name": "gatsby-lotus-starter",
   "description": "Gatsby starter to speed up my own projects.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Lotus <declininglotus@gmail.com>",
   "dependencies": {
     "bootstrap": "^4.4.1",
