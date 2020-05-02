@@ -29,3 +29,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: "cat package.json"
         run: cat ./package.json
+      - name: Commit Comment
+        uses: peter-evans/commit-comment@v1.2.1
+        with:
+          body: |
+            [skip ci]
