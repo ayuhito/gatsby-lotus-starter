@@ -40,19 +40,6 @@ aliases:
 version: 2.1
 
 jobs:
-  test:
-    executor: node
-    steps:
-      - checkout
-      - <<: *restore_cache_yarn
-      - <<: *restore_cache_gatsby
-      - <<: *install_node_modules
-      - <<: *save_cache_yarn
-      - <<: *save_cache_gatsby
-      - run:
-          name: Test
-          command: yarn test
-
   build:
     executor: node
     steps:
@@ -63,6 +50,7 @@ jobs:
       - run:
           name: Build
           command: yarn build
+      - <<: *save_cache_gatsby
       - persist_to_workspace:
           root: ./
           paths:
@@ -95,10 +83,7 @@ workflows:
   version: 2
   build_and_deploy:
     jobs:
-      - test
-      - build:
-          requires:
-            - test
+      - build
       - deploy:
           requires:
             - build
