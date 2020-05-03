@@ -60,7 +60,6 @@
     "type": "git",
     "url": "https://github.com/DecliningLotus/gatsby-lotus-starter"
   },
-  "snyk": true,
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
