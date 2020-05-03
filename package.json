@@ -30,7 +30,8 @@
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.8.6",
-    "react-helmet": "^6.0.0"
+    "react-helmet": "^6.0.0",
+    "snyk": "^1.316.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
@@ -54,12 +55,15 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/DecliningLotus/gatsby-lotus-starter"
   },
+  "snyk": true
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
