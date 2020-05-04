@@ -40,42 +40,31 @@ module.exports = {
     },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-netlify`,
-    {
-      resolve: `gatsby-plugin-favicon`,
-      options: {
-        logo: "./static/images/icons/favicon.png",
-
-        // WebApp Manifest Configuration
-        appName: "Gatsby Lotus Starter",
-        appDescription: "Gatsby Starter for my own projects.",
-        developerName: "Lotus",
-        developerURL: "https://lotusdevshack.com/",
-        dir: "auto",
-        lang: "en-US",
-        background: "#fff",
-        theme_color: "#5ed7ed",
-        display: "standalone",
-        orientation: "any",
-        start_url: "/",
-
-        icons: {
-          android: true,
-          appleIcon: true,
-          appleStartup: true,
-          coast: true,
-          favicons: true,
-          firefox: true,
-          yandex: true,
-          windows: true,
-        },
-      },
-    },
     `gatsby-plugin-robots-txt`,
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-optimize-svgs`,
     `gatsby-plugin-webpack-size`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        icon: "static/images/icons/favicon.svg",
+        cache_busting_mode: "none",
+        name: `gatsby-lotus-starter`,
+        short_name: `lotus-starter`,
+        description: `Gatsby Starter for my own projects.`,
+        start_url: `/`,
+        background_color: `#5ed7ed`,
+        theme_color: `#ffffff`,
+        display: `standalone`,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-offline",
+      options: {
+        workboxConfig: {
+          globPatterns: ["**/*"],
+        },
+      },
+    },
   ],
 }
