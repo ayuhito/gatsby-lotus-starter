@@ -50,14 +50,18 @@
   "scripts": {
     "build": "gatsby build --output-dir",
     "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/DecliningLotus/gatsby-lotus-starter"
+  },
+   "bugs": {
+    "url": "https://github.com/DecliningLotus/gatsby-lotus-starter/issues"
   },
   "husky": {
     "hooks": {
