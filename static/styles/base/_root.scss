@@ -2,44 +2,43 @@
 
 html,
 body {
-    font-family: $font-fallback;
+  font-family: $font-fallback;
 
-    .wf-active & {
-        font-family: $chivo;
-    }
+  .wf-active & {
+    font-family: $chivo;
+  }
 
-    text-rendering: optimizeLegibility !important;
-    -webkit-font-smoothing: antialiased !important;
-    -moz-osx-font-smoothing: grayscale !important;
-    -webkit-text-stroke: .025em rgba(51, 51, 51, .05);
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  -webkit-text-stroke: 0.025em rgba(51, 51, 51, 0.05);
 
-    overflow-x: hidden !important;
+  overflow-x: hidden !important;
 }
 
 h1,
 h2,
 h3 {
+  font-family: $font-fallback;
 
-    font-family: $font-fallback;
-
-    .wf-active & {
-        font-family: $poppins;
-    }
+  .wf-active & {
+    font-family: $poppins;
+  }
 }
 
 p {
-    font-weight: 400;
-    font-size: 1.15rem;
-    letter-spacing: .5px;
-    line-height: 1.8em;
-    margin: auto;
+  font-weight: 400;
+  font-size: 1.15rem;
+  letter-spacing: 0.5px;
+  line-height: 1.8em;
+  margin: auto;
 }
 
 img {
-    user-select: none;
+  user-select: none;
 }
 
 ::selection {
-    color: white;
-    background: black;
+  color: white;
+  background: black;
 }

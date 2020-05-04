@@ -48,7 +48,7 @@ module.exports = {
       resolve: "gatsby-plugin-manifest",
       options: {
         icon: "static/images/icons/favicon.svg",
-        cache_busting_mode: "none",
+        cache_busting_mode: "none", // For compatibility with gatsby-plugin-offline
         name: `gatsby-lotus-starter`,
         short_name: `lotus-starter`,
         description: `Gatsby Starter for my own projects.`,
