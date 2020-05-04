@@ -44,8 +44,27 @@ module.exports = {
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-optimize-svgs`,
     `gatsby-plugin-webpack-size`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        icon: "static/images/icons/favicon.svg",
+        cache_busting_mode: "none",
+        name: `gatsby-lotus-starter`,
+        short_name: `lotus-starter`,
+        description: `Gatsby Starter for my own projects.`,
+        start_url: `/`,
+        background_color: `#5ed7ed`,
+        theme_color: `#ffffff`,
+        display: `standalone`,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-offline",
+      options: {
+        workboxConfig: {
+          globPatterns: ["**/*"],
+        },
+      },
+    },
   ],
 }
