@@ -15,7 +15,7 @@ aliases:
     restore_cache:
       name: Restore Gatsby Caches
       keys:
-        - v1-always-
+        - v2-always-
 
   install_node_modules: &install_node_modules
     run:
@@ -32,7 +32,7 @@ aliases:
   save_cache_gatsby: &save_cache_gatsby
     save_cache:
       name: Save Gatsby file cache
-      key: v1-always-{{ epoch }}
+      key: v2-always-{{ epoch }}
       paths:
         - ./public
         - ./.cache
