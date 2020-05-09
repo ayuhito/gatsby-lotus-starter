@@ -8,8 +8,8 @@ aliases:
     restore_cache:
       name: Restore Yarn Caches
       keys:
-        - yarn-cache-{{ checksum "yarn.lock" }}
-        - yarn-cache-
+        - yarn-v1-cache-{{ checksum "yarn.lock" }}
+        - yarn-v1-cache-
 
   restore_cache_gatsby: &restore_cache_gatsby
     restore_cache:
@@ -25,7 +25,7 @@ aliases:
   save_cache_yarn: &save_cache_yarn
     save_cache:
       name: Save NPM package cache
-      key: yarn-cache-{{ checksum "yarn.lock" }}
+      key: yarn-v1-cache-{{ checksum "yarn.lock" }}
       paths:
         - ./node_modules
 
