@@ -46,7 +46,13 @@
     "husky": "^4.2.5",
     "prettier": "^2.0.5",
     "sass": "^1.26.5",
-    "semantic-release": "^17.0.7"
+    "semantic-release": "^17.0.7",
+    "stylelint": "^13.3.3",
+    "stylelint-config-css-modules": "^2.2.0",
+    "stylelint-config-prettier": "^8.0.1",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-order": "^4.0.0",
+    "stylelint-scss": "^3.17.2"
   },
   "keywords": [
     "gatsby",
@@ -55,10 +61,12 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build --output-dir",
+    "build": "yarn format && gatsby build --output-dir",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md,css,scss}\"",
-    "lint": "eslint --ext .js,.jsx .",
+    "format": "yarn lint:prettier && yarn lint:eslint && yarn lint:stylelint",
+    "format:eslint": "eslint src/**/*.{js,jsx} --fix",
+    "format:prettier": "prettier --write **/*.{js,jsx,json,md,css,scss}",
+    "format:stylelint": "stylelint --fix src/**/*.scss",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
