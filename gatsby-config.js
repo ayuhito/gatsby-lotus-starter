@@ -35,6 +35,7 @@ module.exports = {
         showSpinner: false,
       },
     },
+    `gatsby-plugin-preload-fonts`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-netlify`,
     `gatsby-plugin-robots-txt`,

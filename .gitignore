@@ -57,6 +57,7 @@ typings/
 # gatsby files
 .cache/
 public
+font-preload-cache.json
 
 # Mac files
 .DS_Store
