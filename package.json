@@ -65,7 +65,7 @@
   "scripts": {
     "build": "yarn format && gatsby build --output-dir",
     "develop": "gatsby develop",
-    "format": "yarn lint:prettier && yarn lint:eslint && yarn lint:stylelint",
+    "format": "yarn format:prettier && yarn format:eslint && yarn format:stylelint",
     "format:eslint": "eslint src/**/*.{js,jsx} --fix",
     "format:prettier": "prettier --write **/*.{js,jsx,json,md,css,scss}",
     "format:stylelint": "stylelint --fix src/**/*.scss",
