@@ -29,15 +29,6 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-web-font-loader",
-      options: {
-        google: {
-          families: ["Poppins:400,500,600,700", "Chivo:300,400,700"],
-        },
-        timeout: 2000,
-      },
-    },
-    {
       resolve: `gatsby-plugin-nprogress`,
       options: {
         color: `white`,
