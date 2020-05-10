@@ -19,6 +19,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sass`,
       options: {
+        postCssPlugins: [
+          require("postcss-preset-env")({ stage: 3 }),
+          require("cssnano")({
+            preset: "default",
+          }),
+        ],
         precision: 6,
       },
     },
