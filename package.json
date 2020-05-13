@@ -31,8 +31,7 @@
     "react-dom": "^16.8.6",
     "react-helmet": "^6.0.0",
     "react-icons": "^3.10.0",
-    "typeface-chivo": "^0.0.72",
-    "typeface-poppins": "^0.0.72"
+    "typeface-roboto": "^0.0.75"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
@@ -65,7 +64,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "yarn format && gatsby clean && gatsby build --output-dir",
+    "build": "yarn format && gatsby clean && gatsby build",
     "develop": "gatsby develop",
     "format": "yarn format:prettier && yarn format:eslint && yarn format:stylelint",
     "format:eslint": "eslint src/**/*.{js,jsx} --fix",

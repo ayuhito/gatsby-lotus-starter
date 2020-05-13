@@ -1,34 +1,25 @@
 /* Globals */
-
 html,
 body {
-  font-family: $font-fallback;
+  background-color: $white;
 
-  .wf-active & {
-    font-family: $chivo;
-  }
+  font-family: "Roboto", sans-serif;
 
-  text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
-  -webkit-text-stroke: 0.025em rgba(51, 51, 51, 0.05);
+  min-height: 100vh;
 
   overflow-x: hidden !important;
-}
 
-h1,
-h2,
-h3 {
-  font-family: $font-fallback;
+  position: relative;
 
-  .wf-active & {
-    font-family: $poppins;
-  }
+  text-rendering: optimizeLegibility !important;
+  -webkit-text-stroke: 0.025em rgba(51, 51, 51, 0.05);
 }
 
 p {
-  font-weight: 400;
   font-size: 1.15rem;
+  font-weight: 400;
   letter-spacing: 0.5px;
   line-height: 1.8em;
   margin: auto;
@@ -39,6 +30,6 @@ img {
 }
 
 ::selection {
-  color: white;
   background: black;
+  color: white;
 }

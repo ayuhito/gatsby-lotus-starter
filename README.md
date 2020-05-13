@@ -59,46 +59,46 @@ _If you have any suggestions or bugs to report, feel free to create an [issue he
 
     1.  **_Package Configuration_**
 
-    Navigate to `gatsby-config.js` and customize the `siteMetadata` and `gatsby-plugin-manifest` to your personal requirements.
+        Navigate to `gatsby-config.js` and customize the `siteMetadata` and `gatsby-plugin-manifest` to your personal requirements.
 
-    Open `package.json` and personalize the package settings to your preferences.
+        Open `package.json` and personalize the package settings to your preferences.
 
     2. **_Font Setup_**
 
-    This starter uses [Typefaces](https://github.com/KyleAMathews/typefaces) as the default loader for fonts. This starter already has [Roboto](https://fonts.google.com/specimen/Roboto) installed, however we can customize it in the following:
+        This starter uses [Typefaces](https://github.com/KyleAMathews/typefaces) as the default loader for fonts. This starter already has [Roboto](https://fonts.google.com/specimen/Roboto) installed, however we can customize it in the following:
 
-    ```shell
-    yarn remove typeface-roboto
-    yarn add typeface-yourchosenfont
-    ```
+        ```shell
+        yarn remove typeface-roboto
+        yarn add typeface-yourchosenfont
+        ```
 
-    Then navigate to `src/components/layout.js` and replace `import "typeface-roboto"` with your chosen font. Multiple fonts can be imported separately.
+        Then navigate to `src/components/layout.js` and replace `import "typeface-roboto"` with your chosen font. Multiple fonts can be imported separately.
 
-    This also uses an optional [font preload generator](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-preload-fonts) and instructions on how to utilize this can be found in the link.
+        This also uses an optional [font preload generator](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-preload-fonts) and instructions on how to utilize this can be found in the link.
 
     3. **_Semantic Release_**
 
-    The `.releaserc` file contains the configuration for [Semantic Release](https://github.com/semantic-release/semantic-release).
+        The `.releaserc` file contains the configuration for [Semantic Release](https://github.com/semantic-release/semantic-release).
 
-    The default preset with [commitlint](https://github.com/conventional-changelog/commitlint) uses the [conventionalcommit](https://www.conventionalcommits.org/) format that allows Semantic Release to analyze commits and generate changelogs as well as releases, automatically identifying whether it is a major, minor or patch update.
+        The default preset with [commitlint](https://github.com/conventional-changelog/commitlint) uses the [conventionalcommit](https://www.conventionalcommits.org/) format that allows Semantic Release to analyze commits and generate changelogs as well as releases, automatically identifying whether it is a major, minor or patch update.
 
-    You are able to change the commit style by editing `.releaserc`, adjusting the commit-analyzer preset with a list of options [here](https://github.com/semantic-release/commit-analyzer#options). Likewise, you will then need to update `commitlint.config.js` with a matching preset found [here](https://github.com/semantic-release/commit-analyzer#options).
+        You are able to change the commit style by editing `.releaserc`, adjusting the commit-analyzer preset with a list of options [here](https://github.com/semantic-release/commit-analyzer#options). Likewise, you will then need to update `commitlint.config.js` with a matching preset found [here](https://github.com/semantic-release/commit-analyzer#options).
 
-    Note you will need to reset the package version in `package.json` (keep [this](https://semantic-release.gitbook.io/semantic-release/support/faq#can-i-set-the-initial-release-version-of-my-package-to-0-0-1) in mind) and delete `CHANGELOG.md` when you are ready to begin the release process.
+        Note you will need to reset the package version in `package.json` (keep [this](https://semantic-release.gitbook.io/semantic-release/support/faq#can-i-set-the-initial-release-version-of-my-package-to-0-0-1) in mind) and delete `CHANGELOG.md` when you are ready to begin the release process.
 
     4. **_Continuous Integration and Deployment_**
 
-    The process of deployment and semantic releases is built upon a CircleCI
-    config and served via Netlify.
+        The process of deployment and semantic releases is built upon a CircleCI
+        config and served via Netlify.
 
-    Login to CircleCI and select your Github repo. CircleCI should be able to read the configuration already set within this starter and will smoothly handle everything for you.
+        Login to CircleCI and select your Github repo. CircleCI should be able to read the configuration already set within this starter and will smoothly handle everything for you.
 
-    Do note, you will then need to set project specific Environment
-    Variables for CircleCI to modify your repo with Semantic Release and
-    deploy to Netlify. The following:
+        Do note, you will then need to set project specific Environment
+        Variables for CircleCI to modify your repo with Semantic Release and
+        deploy to Netlify. The following:
 
-    - GH_TOKEN
-    - NETLIFY_AUTH_TOKEN
-    - NETLIFY_SITE_ID
+        - GH_TOKEN
+        - NETLIFY_AUTH_TOKEN
+        - NETLIFY_SITE_ID
 
 **And that should be it! Get right onto developing out your next blazing fast bootstrap website!**

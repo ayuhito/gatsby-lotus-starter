@@ -1,26 +1,25 @@
 /* Buttons SCSS */
-
 .btn {
-  padding: 12px 9px 12px 9px;
   border-radius: 13px;
-  width: 150px;
   font-size: 13.5px;
-  letter-spacing: 0.5px;
   font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 12px 9px 12px 9px;
+  width: 150px;
 }
 
-.header-button {
-  color: $blue;
+.random-button {
   background-color: white;
-  transition: all 0.2s ease-in-out;
-  box-sizing: border-box;
-  border-width: 2px;
   border-color: #fff;
+  border-width: 2px;
+  box-sizing: border-box;
+  color: $blue;
   margin-top: 20px;
+  transition: all 0.2s ease-in-out;
 
   &:hover {
     background-color: $blue;
-    color: white;
     border-color: white;
+    color: white;
   }
 }

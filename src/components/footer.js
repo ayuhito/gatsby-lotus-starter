@@ -1,6 +1,6 @@
-import { Link } from "gatsby"
 import React from "react"
 
+import { FaGithub } from "react-icons/fa"
 import logo from "../../static/images/logo.svg"
 
 import Container from "react-bootstrap/Container"
@@ -9,28 +9,37 @@ import Nav from "react-bootstrap/Nav"
 
 const Footer = () => (
   <footer>
-    <Container fluid>
-      <Navbar>
+    <Navbar variant="dark">
+      <Container>
         <Navbar.Brand href="/">
           <img
             src={logo}
-            width="30"
-            height="30"
+            width="56"
+            height="56"
             className="d-inline-block align-top"
             alt="Lotus Logo"
           />
         </Navbar.Brand>
         <Nav className="mr-auto">
-          <Navbar.Text className="footer-text">Footer Text</Navbar.Text>
+          <Navbar.Text>Gatsby Lotus Starter</Navbar.Text>
         </Nav>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
-          <Link to="/" className="nav-link footer-text">
-            Footer 2
-          </Link>
+          <a
+            href="https://github.com/DecliningLotus/gatsby-lotus-starter"
+            className="nav-link"
+          >
+            <FaGithub size="30px" />
+          </a>
+          <a
+            href="https://github.com/DecliningLotus/gatsby-lotus-starter"
+            className="nav-link"
+          >
+            Github
+          </a>
         </Navbar.Collapse>
-      </Navbar>
-    </Container>
+      </Container>
+    </Navbar>
   </footer>
 )
 
