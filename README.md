@@ -2,6 +2,8 @@
 
 This is a fully featured personal starter I use as a base for my projects that I believe could serve to be useful to others in our community. Go wild and feel free to contribute improvements!
 
+[[Demo](https://gatsby-lotus-starter.netlify.app/)]
+
 _If you have any suggestions or bugs to report, feel free to create an [issue here](https://github.com/DecliningLotus/gatsby-lotus-starter/issues)._
 
 ## Features
@@ -63,7 +65,7 @@ _If you have any suggestions or bugs to report, feel free to create an [issue he
 
         Open `package.json` and personalize the package settings to your preferences.
 
-    2. **_Font Setup_**
+    2.  **_Font Setup_**
 
         This starter uses [Typefaces](https://github.com/KyleAMathews/typefaces) as the default loader for fonts. This starter already has [Roboto](https://fonts.google.com/specimen/Roboto) installed, however we can customize it in the following:
 
@@ -76,7 +78,7 @@ _If you have any suggestions or bugs to report, feel free to create an [issue he
 
         This also uses an optional [font preload generator](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-preload-fonts) and instructions on how to utilize this can be found in the link.
 
-    3. **_Semantic Release_**
+    3.  **_Semantic Release_**
 
         The `.releaserc` file contains the configuration for [Semantic Release](https://github.com/semantic-release/semantic-release).
 
@@ -86,7 +88,7 @@ _If you have any suggestions or bugs to report, feel free to create an [issue he
 
         Note you will need to reset the package version in `package.json` (keep [this](https://semantic-release.gitbook.io/semantic-release/support/faq#can-i-set-the-initial-release-version-of-my-package-to-0-0-1) in mind) and delete `CHANGELOG.md` when you are ready to begin the release process.
 
-    4. **_Continuous Integration and Deployment_**
+    4.  **_Continuous Integration and Deployment_**
 
         The process of deployment and semantic releases is built upon a CircleCI
         config and served via Netlify.
