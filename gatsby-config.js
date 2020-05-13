@@ -19,16 +19,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sass`,
       options: {
+        postCssPlugins: [
+          require("postcss-preset-env")({ stage: 3 }),
+          require("cssnano")({
+            preset: "default",
+          }),
+        ],
         precision: 6,
-      },
-    },
-    {
-      resolve: "gatsby-plugin-web-font-loader",
-      options: {
-        google: {
-          families: ["Poppins:400,500,600,700", "Chivo:300,400,700"],
-        },
-        timeout: 2000,
       },
     },
     {
@@ -38,6 +35,7 @@ module.exports = {
         showSpinner: false,
       },
     },
+    `gatsby-plugin-preload-fonts`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-netlify`,
     `gatsby-plugin-robots-txt`,

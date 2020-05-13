@@ -8,14 +8,14 @@ aliases:
     restore_cache:
       name: Restore Yarn Caches
       keys:
-        - yarn-cache-{{ checksum "yarn.lock" }}
-        - yarn-cache-
+        - yarn-v1-cache-{{ checksum "yarn.lock" }}
+        - yarn-v1-cache-
 
   restore_cache_gatsby: &restore_cache_gatsby
     restore_cache:
       name: Restore Gatsby Caches
       keys:
-        - v1-always-
+        - v2-always-
 
   install_node_modules: &install_node_modules
     run:
@@ -25,14 +25,14 @@ aliases:
   save_cache_yarn: &save_cache_yarn
     save_cache:
       name: Save NPM package cache
-      key: yarn-cache-{{ checksum "yarn.lock" }}
+      key: yarn-v1-cache-{{ checksum "yarn.lock" }}
       paths:
         - ./node_modules
 
   save_cache_gatsby: &save_cache_gatsby
     save_cache:
       name: Save Gatsby file cache
-      key: v1-always-{{ epoch }}
+      key: v2-always-{{ epoch }}
       paths:
         - ./public
         - ./.cache

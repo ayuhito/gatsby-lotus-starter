@@ -11,7 +11,7 @@ import Navbar from "react-bootstrap/Navbar"
 const Header = ({ siteTitle }) => (
   <header>
     <Container>
-      <Navbar collapseOnSelect expand="xl">
+      <Navbar collapseOnSelect expand="xl" variant="dark">
         <Navbar.Brand href="/">
           <img
             src={logo}
@@ -22,17 +22,24 @@ const Header = ({ siteTitle }) => (
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="justify-content-end row no-gutters nav-text">
-            <Link href="/" className="nav-link">
-              HOME
+        <Navbar.Collapse id="responsive-navbar-nav justify-content-end">
+          <Nav className="ml-auto">
+            <Link to="/" className="nav-link" activeClassName="active-link">
+              Home
             </Link>
-            <Link href="/" className="nav-link">
-              PORTFOLIO
+            <Link
+              to="/install"
+              className="nav-link"
+              activeClassName="active-link"
+            >
+              Install
             </Link>
-            <Link to="/test" className="nav-link">
-              CONTACT
-            </Link>
+            <a
+              href="https://github.com/DecliningLotus/gatsby-lotus-starter"
+              className="nav-link"
+            >
+              Github
+            </a>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -9,9 +9,11 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
+import "typeface-roboto"
+
 import Header from "./header"
 import Footer from "./footer"
-import "../../static/styles/main.scss"
+import "../styles/main.scss"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -27,7 +29,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <>{children}</>
+        <main>{children}</main>
         <Footer />
       </>
     )}
