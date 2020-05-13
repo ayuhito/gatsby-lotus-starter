@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/DecliningLotus/gatsby-lotus-starter/compare/v1.2.0...v1.3.0) (2020-05-13)
+
+
+### Bug Fixes
+
+* **package:** corrected package.json scripts ([7951658](https://github.com/DecliningLotus/gatsby-lotus-starter/commit/79516583bb6c03839ea7458dbeba4af5103fddce))
+* **prettier:** adjusted configuration with eslint ([91c4bd9](https://github.com/DecliningLotus/gatsby-lotus-starter/commit/91c4bd9dfeb5a8eb34d375ee7bbeb93c3cd5b5f2))
+
+
+### Features
+
+* full UI overhaul ([cde1af5](https://github.com/DecliningLotus/gatsby-lotus-starter/commit/cde1af5bb3b6f9c574bba28b6629ada0de5e9ac4))
+* **package:** added postcss-preset-env and cssnano ([8b0a535](https://github.com/DecliningLotus/gatsby-lotus-starter/commit/8b0a5351c33614b7a71af596b107785a82b1b7e4))
+* **package:** added react-icons ([d3d10f2](https://github.com/DecliningLotus/gatsby-lotus-starter/commit/d3d10f2efb687b653f2fd792358d967d8a4eac4c))
+* **package:** added stylelint and adjusted package.json scripts for it ([1581467](https://github.com/DecliningLotus/gatsby-lotus-starter/commit/1581467f90237f96906adec5f40a11fde68dd55c))
+* **packages:** added gatsby-plugin-preload-fonts ([24d2396](https://github.com/DecliningLotus/gatsby-lotus-starter/commit/24d2396673f84d5beff7b7af60bb9143220b9370))
+* **packages:** removed web-font-loader in favor for typefaces package ([8f6ea23](https://github.com/DecliningLotus/gatsby-lotus-starter/commit/8f6ea232edbd7ba8d0e2bf50c8a6d648478fa91f))
+
 # [1.2.0](https://github.com/DecliningLotus/gatsby-lotus-starter/compare/v1.1.0...v1.2.0) (2020-05-04)
 
 
