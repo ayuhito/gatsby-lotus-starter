@@ -1,0 +1,21 @@
+/* Header SCSS */
+header {
+  background-color: $gatsby-purple;
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: $font-grey;
+
+    &:hover {
+      color: $white;
+    }
+
+    &.active-link {
+      color: $white;
+    }
+  }
+
+  .navbar-brand:hover {
+    filter: invert(0.8);
+    transition: all ease-in-out 0.2s;
+  }
+}

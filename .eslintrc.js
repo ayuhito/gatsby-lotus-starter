@@ -5,8 +5,8 @@ module.exports = {
     __PATH_PREFIX__: true,
     __BASE_PATH__: true, // this will rarely, if ever, be used by consumers
   },
-  extends: [`react-app`, `prettier`],
-  plugins: [`react`, `jsx-a11y`, `import`],
+  extends: [`plugin:prettier/recommended`, `react-app`],
+  plugins: [`react`, `import`, `jsx-a11y`],
   rules: {
     "import/no-webpack-loader-syntax": [0],
     "jsx-a11y/accessible-emoji": `warn`,
