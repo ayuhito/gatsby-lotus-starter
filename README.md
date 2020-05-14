@@ -103,4 +103,4 @@ _If you have any suggestions or bugs to report, feel free to create an [issue he
         - NETLIFY_AUTH_TOKEN
         - NETLIFY_SITE_ID
 
-**And that should be it! Get right onto developing out your next blazing fast bootstrap website!**
+**And that should be it! Get right onto developing out your next blazing fast bootstrap website! Feel free to contribute and star this repo to support it.**
