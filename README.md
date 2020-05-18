@@ -11,7 +11,7 @@ _If you have any suggestions or bugs to report, feel free to create an [issue he
 - Gatsby v2
 - [Bootstrap](https://getbootstrap.com/) + [React Bootstrap](https://react-bootstrap.github.io/)
 - [React Icons](https://github.com/react-icons/react-icons)
-- [Typefaces](https://github.com/KyleAMathews/typefaces) + [Font Preloader](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-preload-fonts)
+- [Fontsource](https://github.com/DecliningLotus/fontsource) + [Font Preloader](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-preload-fonts)
 - [Image Processing](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-image) + [SVGO Optimizations](https://github.com/vzhou842/gatsby-plugin-optimize-svgs)
 
 - SEO Generation
@@ -67,14 +67,14 @@ _If you have any suggestions or bugs to report, feel free to create an [issue he
 
     2.  **_Font Setup_**
 
-        This starter uses [Typefaces](https://github.com/KyleAMathews/typefaces) as the default loader for fonts. This starter already has [Roboto](https://fonts.google.com/specimen/Roboto) installed, however we can customize it in the following:
+        This starter uses [Fontsource](https://github.com/KyleAMathews/typefaces) as the default loader for fonts. This starter already has [Roboto](https://fonts.google.com/specimen/Roboto) installed, however we can customize it in the following:
 
         ```shell
-        yarn remove typeface-roboto
-        yarn add typeface-yourchosenfont
+        yarn remove fontsource-roboto
+        yarn add fontsource-yourchosengooglefont
         ```
 
-        Then navigate to `src/components/layout.js` and replace `import "typeface-roboto"` with your chosen font. Multiple fonts can be imported separately.
+        Then navigate to `src/components/layout.js` and replace `import "fontsource-roboto"` with your chosen font. Multiple fonts can be imported separately.
 
         This also uses an optional [font preload generator](https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-preload-fonts) and instructions on how to utilize this can be found in the link.
 
