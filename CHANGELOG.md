@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.3](https://github.com/DecliningLotus/gatsby-lotus-starter/compare/v1.3.2...v1.3.3) (2020-05-18)
+
+
+### Bug Fixes
+
+* upgrade ESLint to v7 ([5095098](https://github.com/DecliningLotus/gatsby-lotus-starter/commit/5095098d110649f513d3ee85346de2bab0ee44c8))
+
 ## [1.3.2](https://github.com/DecliningLotus/gatsby-lotus-starter/compare/v1.3.1...v1.3.2) (2020-05-18)
 
 
