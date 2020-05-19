@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.5](https://github.com/DecliningLotus/gatsby-lotus-starter/compare/v1.3.4...v1.3.5) (2020-05-19)
+
+
+### Bug Fixes
+
+* **package:** update eslint-plugin-react-hooks to version 4.0.2 ([76eafae](https://github.com/DecliningLotus/gatsby-lotus-starter/commit/76eafae21b25fc895c3a5a838d8d31def2333d75))
+
 ## [1.3.4](https://github.com/DecliningLotus/gatsby-lotus-starter/compare/v1.3.3...v1.3.4) (2020-05-19)
 
 
