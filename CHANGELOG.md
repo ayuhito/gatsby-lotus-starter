@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.4](https://github.com/DecliningLotus/gatsby-lotus-starter/compare/v1.3.3...v1.3.4) (2020-05-19)
+
+
+### Bug Fixes
+
+* **package:** update eslint-plugin-flowtype to version 5.1.0 ([c5cb458](https://github.com/DecliningLotus/gatsby-lotus-starter/commit/c5cb4586f9970c99b56a36d2ca20f58277a5e346))
+
 ## [1.3.3](https://github.com/DecliningLotus/gatsby-lotus-starter/compare/v1.3.2...v1.3.3) (2020-05-18)
 
 
