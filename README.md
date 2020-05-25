@@ -67,11 +67,11 @@ _If you have any suggestions or bugs to report, feel free to create an [issue he
 
     2.  **_Font Setup_**
 
-        This starter uses [Fontsource](https://github.com/KyleAMathews/typefaces) as the default loader for fonts. This starter already has [Roboto](https://fonts.google.com/specimen/Roboto) installed, however we can customize it in the following:
+        This starter uses [Fontsource](https://github.com/DecliningLotus/fontsource) as the default loader for fonts. This starter already has [Roboto](https://fonts.google.com/specimen/Roboto) installed, however we can customize it in the following:
 
         ```shell
         yarn remove fontsource-roboto
-        yarn add fontsource-yourchosengooglefont
+        yarn add fontsource-yourchosenfont
         ```
 
         Then navigate to `src/components/layout.js` and replace `import "fontsource-roboto"` with your chosen font. Multiple fonts can be imported separately.

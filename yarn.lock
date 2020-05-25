@@ -6586,10 +6586,10 @@ follow-redirects@^1.0.0:
   dependencies:
     debug "^3.0.0"
 
-fontsource-roboto@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/fontsource-roboto/-/fontsource-roboto-1.0.3.tgz#9bd7106b8ec18e3bd99a6f8660d1cef8c6b13d28"
-  integrity sha512-e63fqpy2b2ZgbTSbVPMdR/fa/wy2teqW2eh0KXdkPmPkz6JE72eYhbkgGw3S9yLvP8cm8iOrjwWVvXYL87U51A==
+fontsource-roboto@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/fontsource-roboto/-/fontsource-roboto-2.1.2.tgz#c9148ea8527401f67f31a4aeda090330f9e89b2e"
+  integrity sha512-tqul0ftpWResnsm8kjieI/vIOLHblVbD2LGw9Mmk83NnpK65OtBm0aElAk2qXbTe/StkD/sLBgikYIhmLkh3XQ==
 
 for-in@^1.0.2:
   version "1.0.2"
