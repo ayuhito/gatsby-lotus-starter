@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/DecliningLotus/gatsby-lotus-starter/compare/v1.3.6...v1.4.0) (2020-05-25)
+
+
+### Features
+
+* **packages:** replace typefaces with fontsource for futureproofing ([7e84b23](https://github.com/DecliningLotus/gatsby-lotus-starter/commit/7e84b23bdc550e0930354d360fa977e728435e02))
+
 ## [1.3.6](https://github.com/DecliningLotus/gatsby-lotus-starter/compare/v1.3.5...v1.3.6) (2020-05-25)
 
 
