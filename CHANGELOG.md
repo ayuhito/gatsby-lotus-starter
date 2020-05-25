@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.6](https://github.com/DecliningLotus/gatsby-lotus-starter/compare/v1.3.5...v1.3.6) (2020-05-25)
+
+
+### Bug Fixes
+
+* **package:** update @typescript-eslint/eslint-plugin to version 3.0.0 ([ecaa43d](https://github.com/DecliningLotus/gatsby-lotus-starter/commit/ecaa43db550bd11f41f6eb88d89c256821661332))
+* **package:** update @typescript-eslint/parser to version 3.0.0 ([b35382f](https://github.com/DecliningLotus/gatsby-lotus-starter/commit/b35382f919d93146470ff393294cc97b9e1b0a91))
+
 ## [1.3.5](https://github.com/DecliningLotus/gatsby-lotus-starter/compare/v1.3.4...v1.3.5) (2020-05-19)
 
 
