@@ -1,28 +1,27 @@
 /* Globals */
 html,
 body {
-  background-color: $white;
 
-  font-family: "Roboto", sans-serif;
-
-  -webkit-font-smoothing: antialiased !important;
-  -moz-osx-font-smoothing: grayscale !important;
+  position: relative;
   min-height: 100vh;
 
   overflow-x: hidden !important;
+  font-family: "Roboto", sans-serif;
+  background-color: $white;
 
-  position: relative;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
 
   text-rendering: optimizeLegibility !important;
   -webkit-text-stroke: 0.025em rgba(51, 51, 51, 0.05);
 }
 
 p {
-  font-size: 1.15rem;
-  font-weight: 400;
-  letter-spacing: 0.5px;
-  line-height: 1.8em;
   margin: auto;
+  font-weight: 400;
+  font-size: 1.15rem;
+  line-height: 1.8em;
+  letter-spacing: 0.5px;
 }
 
 img {
@@ -30,6 +29,6 @@ img {
 }
 
 ::selection {
-  background: black;
   color: white;
+  background: black;
 }
