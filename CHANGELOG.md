@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/DecliningLotus/gatsby-lotus-starter/compare/v1.4.1...v1.5.0) (2020-05-27)
+
+
+### Features
+
+* removed stylelint alphabetical order in favor for rational order ([df9375c](https://github.com/DecliningLotus/gatsby-lotus-starter/commit/df9375cfb9bde263dd8146f51f19cd05bffec0a3))
+
 ## [1.4.1](https://github.com/DecliningLotus/gatsby-lotus-starter/compare/v1.4.0...v1.4.1) (2020-05-25)
 
 
