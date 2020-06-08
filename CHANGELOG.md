@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.2](https://github.com/DecliningLotus/gatsby-lotus-starter/compare/v1.5.1...v1.5.2) (2020-06-08)
+
+
+### Bug Fixes
+
+* **package:** bump Yarn dependencies (2020-06-08) ([f6ab7de](https://github.com/DecliningLotus/gatsby-lotus-starter/commit/f6ab7dec863d403651c03d9a2f89222ce8e76639))
+
+## [1.5.1](https://github.com/DecliningLotus/gatsby-lotus-starter/compare/v1.5.0...v1.5.1) (2020-05-27)
+
+
+### Bug Fixes
+
+* update stylelint config for new rational order plugin ([d7adde1](https://github.com/DecliningLotus/gatsby-lotus-starter/commit/d7adde13846ecc19b1f76051a8a2fffc294ec554))
+
 # [1.5.0](https://github.com/DecliningLotus/gatsby-lotus-starter/compare/v1.4.1...v1.5.0) (2020-05-27)
 
 
