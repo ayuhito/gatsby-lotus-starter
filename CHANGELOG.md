@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.5](https://github.com/DecliningLotus/gatsby-lotus-starter/compare/v1.5.4...v1.5.5) (2020-06-28)
+
+
+### Bug Fixes
+
+* **package:** update eslint-plugin-import to version 2.22.0 ([a924126](https://github.com/DecliningLotus/gatsby-lotus-starter/commit/a924126de4f6eb0e058a66c64855d742bfdf678e))
+
 ## [1.5.4](https://github.com/DecliningLotus/gatsby-lotus-starter/compare/v1.5.3...v1.5.4) (2020-06-22)
 
 
