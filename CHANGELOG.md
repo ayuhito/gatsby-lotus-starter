@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.12](https://github.com/DecliningLotus/gatsby-lotus-starter/compare/v1.5.11...v1.5.12) (2020-08-06)
+
+
+### Bug Fixes
+
+* **package:** bump Yarn dependencies (2020-08-03) ([d90d842](https://github.com/DecliningLotus/gatsby-lotus-starter/commit/d90d84288c70dec0b0f2fceb300c50d9557c225a))
+
 ## [1.5.11](https://github.com/DecliningLotus/gatsby-lotus-starter/compare/v1.5.10...v1.5.11) (2020-07-29)
 
 
