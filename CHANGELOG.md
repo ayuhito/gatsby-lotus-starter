@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.13](https://github.com/DecliningLotus/gatsby-lotus-starter/compare/v1.5.12...v1.5.13) (2020-08-13)
+
+
+### Bug Fixes
+
+* **package:** update eslint-plugin-react to version 7.20.6 ([#119](https://github.com/DecliningLotus/gatsby-lotus-starter/issues/119)) ([0fa8168](https://github.com/DecliningLotus/gatsby-lotus-starter/commit/0fa8168107e27f77b07d3e9a224f34ffc0289bf8))
+
 ## [1.5.12](https://github.com/DecliningLotus/gatsby-lotus-starter/compare/v1.5.11...v1.5.12) (2020-08-06)
 
 
