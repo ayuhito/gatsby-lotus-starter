@@ -9,7 +9,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
-import "fontsource-roboto"
+import "fontsource-roboto/400-normal.css"
+import "fontsource-roboto/500-normal.css"
 
 import Header from "./header"
 import Footer from "./footer"
