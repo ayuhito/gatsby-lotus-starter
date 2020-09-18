@@ -33,10 +33,8 @@ const IndexPage = () => (
               </a>
             </li>
             <li>
-              <a href="https://github.com/KyleAMathews/typefaces">Typeface</a> +{" "}
-              <a href="https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-preload-fonts">
-                Preload Font Generator
-              </a>
+              <a href="https://github.com/fontsource/fontsource">Fontsource</a>{" "}
+              +{" "}
             </li>
             <li>
               <a href="https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-image">
@@ -106,30 +104,6 @@ const IndexPage = () => (
               <li>
                 <a href="https://stylelint.io/">Stylelint</a>
               </li>
-              <li>
-                <a href="https://github.com/semantic-release/semantic-release">
-                  Semantic Release
-                </a>
-              </li>
-              <ul>
-                <li>
-                  <a href="https://www.conventionalcommits.org/">
-                    Conventional Commit Format
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/conventional-changelog/commitlint">
-                    Commitlint
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/typicode/husky">
-                    Husky Git Hooks
-                  </a>
-                </li>
-                <li>Automatic Changelog Generation</li>
-                <li>Automatic Releases and Tags</li>
-              </ul>
             </ul>
             <li>Continuous Integration and Deployment</li>
             <ul>
@@ -142,7 +116,7 @@ const IndexPage = () => (
                 <a href="https://circleci.com/">CircleCI Configuration</a>
               </li>
               <li>Caching for Yarn and Gatsby for Quicker Build Times</li>
-              <li>Automatic Deployment to Netlify with Semantic Release</li>
+              <li>Automatic Deployment to Netlify</li>
             </ul>
           </ul>
         </Col>

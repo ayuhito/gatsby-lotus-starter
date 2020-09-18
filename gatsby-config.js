@@ -35,7 +35,6 @@ module.exports = {
         showSpinner: false,
       },
     },
-    `gatsby-plugin-preload-fonts`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-netlify`,
     `gatsby-plugin-robots-txt`,
@@ -46,7 +45,7 @@ module.exports = {
       resolve: "gatsby-plugin-manifest",
       options: {
         icon: "static/images/icons/favicon.svg",
-        cache_busting_mode: "none", // For compatibility with gatsby-plugin-offline
+        // cache_busting_mode: "none", // Uncomment to enable service worker
         name: `gatsby-lotus-starter`,
         short_name: `lotus-starter`,
         description: `Gatsby Starter for my own projects.`,
@@ -56,13 +55,13 @@ module.exports = {
         display: `standalone`,
       },
     },
-    {
-      resolve: "gatsby-plugin-offline",
-      options: {
-        workboxConfig: {
-          globPatterns: ["**/*"],
-        },
-      },
-    },
+    // {
+    //   resolve: "gatsby-plugin-offline",
+    //   options: {
+    //     workboxConfig: {
+    //       globPatterns: ["**/*"],
+    //     },
+    //   },
+    // }, Uncomment to enable service worker
   ],
 }

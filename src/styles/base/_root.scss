@@ -1,12 +1,14 @@
 /* Globals */
 html,
 body {
-
   position: relative;
+
   min-height: 100vh;
 
   overflow-x: hidden !important;
+
   font-family: "Roboto", sans-serif;
+
   background-color: $white;
 
   -webkit-font-smoothing: antialiased !important;
@@ -18,6 +20,7 @@ body {
 
 p {
   margin: auto;
+
   font-weight: 400;
   font-size: 1.15rem;
   line-height: 1.8em;
@@ -30,5 +33,6 @@ img {
 
 ::selection {
   color: white;
+
   background: black;
 }
