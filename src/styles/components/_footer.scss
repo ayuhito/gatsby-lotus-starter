@@ -6,7 +6,9 @@ main {
 footer {
   position: absolute;
   bottom: 0;
+
   width: 100%;
+
   background-color: $gatsby-purple;
 
   .nav-link {
@@ -24,5 +26,6 @@ footer {
 
 .navbar-brand:hover {
   filter: invert(0.8);
+
   transition: all ease-in-out 0.2s;
 }
