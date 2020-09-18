@@ -71,14 +71,6 @@ jobs:
           name: Deploy to Netlify
           command: netlify deploy --dir=./public -p
 
-  release:
-    executor: node
-    steps:
-      - checkout
-      - <<: *restore_cache_yarn
-      - <<: *install_node_modules
-      - run: npx semantic-release
-
 workflows:
   version: 2
   build_and_deploy:
@@ -87,12 +79,6 @@ workflows:
       - deploy:
           requires:
             - build
-          filters:
-            branches:
-              only: master
-      - release:
-          requires:
-            - deploy
           filters:
             branches:
               only: master
