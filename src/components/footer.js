@@ -1,6 +1,6 @@
 import React from "react"
 
-import { FaGithub } from "react-icons/fa"
+import { FaGithub } from "@react-icons/all-files/fa/FaGithub"
 import logo from "../../static/images/logo.svg"
 
 import Container from "react-bootstrap/Container"

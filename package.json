@@ -4,6 +4,7 @@
   "version": "1.6.0",
   "author": "Lotus <declininglotus@gmail.com>",
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
     "bootstrap": "^4.5.3",
     "cssnano": "^4.1.10",
     "fontsource-roboto": "^3.0.3",
@@ -31,8 +32,7 @@
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0",
-    "react-icons": "^4.1.0"
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.5.0",
