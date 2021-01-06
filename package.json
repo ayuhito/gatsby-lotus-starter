@@ -20,7 +20,7 @@
     "gatsby-plugin-optimize-svgs": "^1.0.4",
     "gatsby-plugin-react-helmet": "^3.7.0",
     "gatsby-plugin-robots-txt": "^1.5.5",
-    "gatsby-plugin-sass": "^2.8.0",
+    "gatsby-plugin-sass": "^3.0.0",
     "gatsby-plugin-sharp": "^2.11.2",
     "gatsby-plugin-sitemap": "^2.9.0",
     "gatsby-plugin-webpack-size": "^1.0.0",
